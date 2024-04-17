@@ -66,7 +66,7 @@ namespace Karakter
                 }
                 
             }
-            else if (skill == 2) // Ice Blast
+            else if (skill == 2) // Ice Blast 
             {
                 if (MP > pengurangan_MN_skill)
                 {
@@ -80,8 +80,8 @@ namespace Karakter
             }
             else // Healing
             {
-                HP += 200;
-                MP += 30;
+                HP += 200; // jumlah HP Healing
+                MP += 30; // Jumlah Mana Healing
                 return 0;
             }
             
